@@ -70,7 +70,10 @@ header.shadow .back {
 .post-header {
   width: 100%;
   height: 500px;
-  background: var(--container-color);
+  background: url("./img/im.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .post-container {
@@ -237,15 +240,17 @@ header.shadow .back {
   }
 
   .header-img {
-    height: 240px;
+    margin-top: 2rem;
+    height: 144px;
   }
 
   .post-header {
-    height: 335px;
+    margin-top: 25px;
+    height: 156px;
   }
 
   .post-content {
-    margin-top: 5rem !important;
+    margin-top: 1rem !important;
   }
 
   .post-text {
